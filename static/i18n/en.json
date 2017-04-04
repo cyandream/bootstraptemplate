@@ -1,0 +1,468 @@
+{
+  "app_component": {
+    "title": "Smart Asset Tracking",
+    "login": "Login",
+    "yes": "YES",
+    "no": "NO",
+    "save": "SAVE",
+    "cancel": "CANCEL",
+    "edit": "Edit",
+    "edit_caps": "EDIT",
+    "close_caps": "CLOSE",
+    "history": "View History",
+    "delete": "Delete",
+    "delete_caps": "DELETE",
+    "copy": "Copy",
+    "copy_caps": "COPY",
+    "due": "Due",
+    "add": "Add",
+    "add_caps": "ADD",
+    "OK": "OK",
+    "manage": "Manage",
+    "generic_error": "An error occured while processing your request.  Please try again."
+  },
+  "feedback": {
+    "unauthorized": {
+      "title": "We're Sorry",
+      "message1": "The page you were trying to reach cannot be displayed.",
+      "message2": "If you believe you should be able to view this page, please contact your system administrator."
+    },
+    "nocompany": {
+      "title": "Welcome to BradyWorks",
+      "message1": "Unfortunately, this email address isn't listed in any companies yet.",
+      "message2": "Please contact your BradyWorks administrator and ask to be added as a user."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "start": "Get Started",
+    "facility": "Facility",
+    "inspections": "Inspections",
+    "inspection_schedules": "Inspection Schedules",
+    "inspection_assignments": "Inspection Assignments",
+    "my_inspection": "My Inspections",
+    "open_exceptions": "Open Exceptions",
+    "manage": "Manage",
+    "assets": "Assets",
+    "locations": "Locations",
+    "asset_class": "Classifications",
+    "inspectionschedule": "Inspections",
+    "rule": "Assignments",
+    "users": "Users",
+    "reports": "Reports"
+  },
+  "search_component": {
+    "header": "Search",
+    "search_by_term_placeholder": "",
+    "Assets": "Assets",
+    "Locations": "Locations",
+    "Classifications": "Classifications",
+    "Users": "Users",
+    "InspectionAssignments": "Assignments",
+    "InspectionSchedules": "Inspections",
+    "location_placeholder_text": "Location Name"
+  },
+  "search_results_component": {
+    "title": "Search Results",
+    "searchLabel": "Keyword Search",
+    "empty_search_result_message_prefix": "We did not find any records that match your search terms."
+  },
+  "location_component": {
+    "location_title": "Here are your locations"
+  },
+  "location_list_component": {
+    "location_list_title": "Locations",
+    "btn_load_more": "Load More",
+    "no_more_pages_msg": "All locations are currently visible"
+  },
+  "asset_component": {
+    "asset_details_title": "Asset Details",
+    "asset_name": "Name",
+    "asset_description": "Description",
+    "asset_last_known": "Last Known Location",
+    "bt_asset_update_location": "Update Location",
+    "Asset_id_tag": "Identification Tags",
+    "location_title": "Location History",
+    "asset_type_label": "Classification",
+    "asset_location_label": "Last Known Location",
+    "delete_msg_pre": "You are about to permanently delete this asset: ",
+    "delete_msg_post": "Do you wish to proceed?"
+  },
+  "asset_list_component": {
+    "assetlist_title": "Asset by Location",
+    "assetlist_dropdown_label": "Narrow by",
+    "btn_assetlist_Asset": "by Asset"
+  },
+  "asset_create_component": {
+    "header": "Asset Details",
+    "name_label": "Name",
+    "invalid_name_error_message": "Name is missing",
+    "description_label": "Description",
+    "type_label": "Classification",
+    "location_label": "Location",
+    "location_search": "Location Search",
+    "barcode": "Barcode",
+    "scannable_code": "Scannable Code",
+    "add_code": "Add Code",
+    "remove_code": "Remove Code",
+    "enter_code": "Enter Scannable Code"
+  },
+  "asset_edit_component": {
+    "header": "Edit Asset Details",
+    "name_label": "Name",
+    "invalid_name_error_message": "Please include a name.",
+    "description_label": "Description"
+  },
+  "asset_type_create_component": {
+    "required_type_message": "Classification is missing",
+    "duplicate_type_message": "This Classification already exists",
+    "duplicate_field_message": "This Field already exists",
+    "asset_type_title": "Classification Details",
+    "asset_type_label": "Classification",
+    "custom_label": "Additional Fields",
+    "custom_label_description": "Fields added here will be included on all records of this classification."
+  },
+  "classification_detail_component": {
+    "classification_detail_title": "Classification Details",
+    "fields_label": "Additional Fields",
+    "inspection_planning_title": "Inspection Planning",
+    "inspections": "Inspections",
+    "inspecitons_note": "Applied to all assets of this classification",
+    "btn_create_inspection": "Create Inspection",
+    "btn_create_assignment": "Create Assignment",
+    "auth_msg": "You are not authorized to delete classifications",
+    "delete_title": "Delete Classification",
+    "delete_msg_pre": "You are about to permanently delete this classification: ",
+    "delete_msg_post": "Do you wish to proceed?",
+    "warning_msg_pre": "Before you can delete this classification you must:",
+    "warning_msg_post": "Delete all assets with this classification."
+  },
+  "asset_inspection_component": {
+    "asset_inspection_title": "Inspection Task",
+    "pass": "PASS",
+    "fail": "FAIL",
+    "passCamel": "Pass",
+    "failCamel": "Fail",
+    "ad_hoc": "Ad hoc inspection",
+    "asset_label": "Asset",
+    "inspection_label": "Inspection",
+    "notes_label": "Inspection Notes",
+    "exception": "CREATE EXCEPTION"
+  },
+  "asset_detail_component": {
+    "asset_detail_title": "Asset Details",
+    "delete_title": "Delete Asset",
+    "empty_description": "No Description",
+    "empty_field": "No",
+    "location_label": "Last Known Location",
+    "inspection_label": "Inspections",
+    "inspection_tasks_label": "Inspection Tasks",
+    "inspection_task_button": "Inspect",
+    "last_inspection_label": "Last Inspection",
+    "updated_location": "Updated",
+    "link_inspection_history": "Inspection History",
+    "scannable_code": "Scannable Code",
+    "exceptions_label": "Exceptions",
+    "exception_history": "Exception History",
+    "exception_edit_button": "Edit"
+  },
+  "asset_history_component": {
+    "history_header": "Asset History",
+    "history_action": "View History",
+    "history_header_original": "Original:",
+    "history_header_updated": "Updated:",
+    "record_created": "Record created",
+    "original": "Original",
+    "updated": "Updated",
+    "barcode_label": "Scannable Barcodes"
+  },
+  "location_create_component": {
+    "header_location": "Location Details",
+    "header_sublocation": "Sub-location Details",
+    "name_label": "Location Name",
+    "invalid_name_error_message": "Location Name is missing",
+    "description_label": "Description"
+  },
+  "location_detail_component": {
+    "title": "Location Details",
+    "edit_action": "Edit",
+    "location_name": "Location Name",
+    "location_description": "Description",
+    "sublocations_title": "Sub-locations",
+    "btn_create_sublocation": "Create Sub-Location",
+    "btn_create_asset": "Create Asset",
+    "delete_title": "Delete Location",
+    "delete_msg_pre": "You are about to permanently delete this location: ",
+    "delete_msg_post": "Do you wish to proceed?",
+    "warning_msg_pre": "Before you can delete this location you must:",
+    "warning_msg_post": "Delete all sub-locations ",
+    "warning_msg_post2": "Delete or relocate all assets within this location "
+  },
+  "user_create_component": {
+    "required_email_message": "Email is missing",
+    "required_role_message": "Role is missing",
+    "bad_email_message": "Email does not appear to be properly formatted",
+    "title": "User Details",
+    "email": "Email",
+    "role": "Role",
+    "admin": "Admin",
+    "inspector": "Inspector",
+    "regular_user": "Regular User"
+  },
+  "user_detail_component": {
+    "user_detail_title": "User Details",
+    "email": "Email",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phone": "Phone",
+    "role": "Role"
+  },
+  "switch_company_component": {
+    "title": "Your Companies"
+  },
+  "header": {
+    "title": "Smart Asset Tracking",
+    "login": "Login",
+    "logout": "Logout",
+    "change_company": "Change Company"
+  },
+  "inspection-schedule-component": {
+    "one_time": "One Time",
+    "once": "Once",
+    "repeating": "Repeating",
+    "weeks": "Week(s)",
+    "days": "Day(s)",
+    "months": "Month(s)",
+    "years": "Years",
+    "null": "",
+    "classification_to_be_Inspected": "Classification To Be Inspected",
+    "title": "Inspection Details",
+    "inspection_name": "Inspection Name",
+    "inspection_frequency": "Inspection Frequency",
+    "repeat_every": "Repeats Every",
+    "due_date_label_one_time": "Due On",
+    "due_date_label_repeating": "First Due On",
+    "invalid_name_error_message": "Inspection Name is missing",
+    "invalid_frequency_error_message": "Inspection Frequency is missing",
+    "invalid_repeat_error_message": "Repeat Quantity is missing",
+    "invalid_date_error_message_one_time": "Due On is missing",
+    "invalid_date_error_message_reeating": "First Due On is missing",
+    "invalid_format_error_message": "Date in  MM/DD/YYYY format"
+  },
+  "inspection-schedule-detail-component": {
+    "title": "Inspection Details",
+    "inspection_name": "Inspection Name",
+    "classification": "Classification",
+    "one_time": "One Time Inspection",
+    "repeats_every": "Repeats Every",
+    "one_time_due": "Due {{due_date}}",
+    "repeat_months": "{num, plural, one{# Month} other{# Months}}",
+    "monthly_due": "On the {{day}} of the month",
+    "repeat_weeks": "{num, plural, one{# Week} other{# Weeks}}",
+    "weekly_due": "On {{day_of_week}}",
+    "repeat_years": "{num, plural, one{# Year} other{# Years}}",
+    "yearly_due": "On {{due_date}}",
+    "btn_create_assignment": "Create Assignment",
+    "delete_title": "Delete Inspection Schedule",
+    "delete_message_pre": "You are about to permanently delete this schedule and its related items:",
+    "delete_message_2": "inspection schedule",
+    "delete_message_3": "Pending inspection tasks",
+    "delete_message_4": "Future inspection tasks",
+    "delete_message_post": "Do you wish to proceed?",
+    "auth_msg": "You are not authorized to delete schedules"
+  },
+  "inspection_history_component": {
+    "inspector_label": "Inspector",
+    "location_label": "Location",
+    "notes_label": "Notes",
+    "inspection_history_title": "Inspection History",
+    "asset_detail_link": "Asset Details"
+  },
+  "rule_add_component": {
+    "title": "Inspection Assignment Details",
+    "name_label": "Inspection Assignment Name",
+    "user_label": "Assign To",
+    "classification_label": "Classification",
+    "name_error_message": "Inspection Assignment Name is missing",
+    "user_error_message": "Assign To is missing",
+    "classification_error_message": "Classification is missing",
+    "location_label": "Location (All sub-locations will be included)",
+    "none_selected": "All assets are included if no location is specified.",
+    "classification_none_selected": "All inspections listed on the classification are included."
+  },
+  "rule_detail_component": {
+    "title": "Inspection Assignment",
+    "name": "Inspection Assignment Name",
+    "assigned": "Assign To",
+    "classifications": "Classification",
+    "delete_title": "Delete Assignment",
+    "delete_message_pre": "You are about to permanently delete this assignment and its related items:",
+    "delete_message_2": "inspection assignment",
+    "delete_message_3": "Pending inspection tasks",
+    "delete_message_4": "Future inspection tasks",
+    "delete_message_post": "Do you wish to proceed?",
+    "location": "Location (Including sub-locations)",
+    "none_selected": "All assets are included if no location is specified.",
+    "classification_none_selected": "All inspections listed on the classification are included."
+  },
+  "report_asset_inspections": {
+    "column_headers": {
+      "date": "Date",
+      "classification_name": "Classification",
+      "asset_name": "Asset",
+      "location": "Location",
+      "inspection_name": "Inspection",
+      "inspector": "Inspector",
+      "result": "Result",
+      "note": "Notes",
+      "exceptions": "Exceptions"
+    },
+    "Inspections_report_title": "Asset Inspection Report",
+    "Inspections_report_executed": "Report executed",
+    "loading_data": "Loading Data...",
+    "error_loading_data": "Error Loading Data",
+    "from_date": "From",
+    "to_date": "To",
+    "no_results": "No inspections were performed during this time period.",
+    "invalid_to_date": "To is missing",
+    "invalid_from_date": "From is missing",
+    "adhoc_inspection_name": "Ad hoc inspection",
+    "exectute_button": "Apply"
+  },
+  "dashboard_component": {
+    "my_work": "MY WORK",
+    "due_in_the_next_60": "Due in the next 60 days",
+    "inspection_tasks": "Inspection Tasks",
+    "facility_overview": "FACILITY OVERVIEW",
+    "overdue_work": "OVERDUE WORK",
+    "overdue": "Overdue",
+    "as_of": "As of",
+    "inspections": "Inspections",
+    "inspection_schedules": "Inspection Schedules",
+    "upcoming_work": "UPCOMING WORK",
+    "next_60_days": "Next 60 Days",
+    "today_through": "Today through",
+    "facility_summary": "FACILITY SUMMARY",
+    "users": "Users",
+    "assets": "Assets",
+    "locations": "Locations",
+    "classifications": "Classifications",
+    "assignments": "Assignments",
+    "assign": "Assign",
+    "open_exceptions": "Open Exceptions"
+  },
+  "my_inspections": {
+    "title": "My Inspections",
+    "assigned_to": "Assigned to",
+    "due": "Due",
+    "no_inspections_message": "There are no inspections assigned to you that are due within the next 60 days."
+  },
+  "getting_started": {
+    "title": "Get Started",
+    "facility_group_title": "Define Your Facility",
+    "user_box_title": "Users",
+    "user_text1": "Who will use your system?",
+    "user_text2": "Who will be assiged work?",
+    "bt_user_add": "Add a User",
+    "location_box_title": "Locations",
+    "location_text1": "How would you describe your facility?",
+    "location_text2": "Is it organized by building, floor, area, room?",
+    "location_text3": "Where do you want to locate assets?",
+    "bt_location_add": "Add a Location",
+    "assets_group_title": "Describe Your Assets",
+    "classifications_box_title": " Classifications",
+    "classifications_text1": "How would you label assets that require the same inspections?",
+    "classifications_text2": "Does the asset require more than one label?",
+    "bt_classifications_add": "Add a Classification",
+    "assets_box_title": "Assets",
+    "assets_text1": "What equipment should be included?",
+    "assets_text2": "What type of equipment is it?",
+    "assets_text3": "Where is it located?",
+    "bt_assets_add": "Add an Asset",
+    "inspections_group_title": "Build Inspections",
+    "schedules_box_title": "Inspection Schedules",
+    "schedules_text1": "Which groups of equipment need to be inspected?",
+    "schedules_text2": "Is the inspection repeated on a cycle, run once, or completed as needed?",
+    "bt_schedules_add": "Add an Inspection",
+    "assignments_box_title": "Inspection Assignments",
+    "assignments_text1": "How would you describe your facility?",
+    "assignments_text2": "Is it organized by building, floor, area, room?",
+    "bt_assignments_add": "Add an Assignment"
+  },
+  "manage_locations": {
+    "title": "Primary Locations",
+    "empty_result": "No locations were found."
+  },
+  "manage_assets": {
+    "show_all": "SHOW ALL",
+    "title": "Assets",
+    "empty_result": "No assets were found.",
+    "limit_to": "Limit To:",
+    "classifications": "Classifications",
+    "classification_filter": "Classification Filter"
+  },
+  "manage_classifications": {
+    "title": "Classifications",
+    "empty_result": "No classifications were found."
+  },
+  "manage_inspections": {
+    "title": "Inspection Schedules",
+    "empty_result": "No inspection schedules were found."
+  },
+  "manage_assigments": {
+    "title": "Assignments",
+    "empty_result": "No assignments were found."
+  },
+  "manage_users": {
+    "title": "Users",
+    "empty_result": "No users were found."
+  },
+  "open_exceptions": {
+    "title": "Open Exceptions",
+    "empty_result": "No open exceptions were found.",
+    "assigned_to": "Assigned to",
+    "due": "Due"
+  },
+  "scannable_barcode_types": {
+    "Barcode": "Barcode"
+  },
+  "exception_inspection_create": {
+    "title": "Create Exception",
+    "issue": "Issue",
+    "details": "Details",
+    "assigned_to": "Assigned To",
+    "date_due": "Date Due",
+    "inspection": "Inspection",
+    "asset": "Asset",
+    "location": "Location"
+  },
+  "exception_edit": {
+    "title": "Exception Edit",
+    "issue": "Issue",
+    "details": "Details",
+    "assigned_to": "Assigned To",
+    "date_due": "Date Due",
+    "inspection": "Inspection",
+    "asset": "Asset",
+    "location": "Location",
+    "state": "State",
+    "close": "Close",
+    "generated_by": "Generated By",
+    "notes": "Notes",
+    "closed_on": "Closed On",
+    "closed_by": "Closed By"
+  },
+  "task_summary_views": {
+    "overdue_title": "Overdue Work",
+    "upcoming_title": "Upcoming Work",
+    "label_overdue": "Overdue",
+    "label_upcoming": "Upcoming",
+    "column_inspections": "Inspections",
+    "column_tasks": "Inspection Tasks Remaining",
+    "tasks_xs_label": "Inspection tasks remaining",
+    "no_overdue": "No overdue tasks found",
+    "no_pending": "No pending tasks found",
+    "label_due": "Due",
+    "of": "of"
+  }
+}

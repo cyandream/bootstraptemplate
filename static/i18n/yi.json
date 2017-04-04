@@ -1,0 +1,467 @@
+{
+  "app_component": {
+    "title": "XXXXXX",
+    "login": "XXXXXX",
+    "yes": "XXX",
+    "no": "XX",
+    "save": "XXXX",
+    "cancel": "xxxx",
+    "edit": "xxxx",
+    "edit_caps": "XXXX",
+    "close_caps": "XXXX",
+    "history": "xxxxx xxxxx",
+    "delete": "xxxxx",
+    "delete_caps": "XXXXX",
+    "copy": "xxxx",
+    "copy_caps": "XXXX",
+    "due": "XXX",
+    "add": "xxx",
+    "add_caps": "XXX",
+    "OK": "XX",
+    "manage": "XXXXX",
+    "generic_error": "XXXXXXXXXXXXXXXXXX XXXXXXXXXXX XXXXXXXXXXXXXXXXXX XXXXXXXXXX"
+  },
+  "feedback": {
+    "unauthorized": {
+      "title": "XXXXXXXXX",
+      "message1": "XXXX XX'XX XXXXX XX XXXXXX XXXXXXXXXXX XXXX.",
+      "message2": "XXXXXXXXXX XXX XXXXXXX XX XX XXXXXXXXX."
+    },
+    "nocompany": {
+      "title": "XXXXXXXXX",
+      "message1": "XXXX XX'XX XXXXX XX XXXXXX XXXXXXXXXXX XXXX.",
+      "message2": "XXXXXXXXXX XXX XXXXXXX XX XX XXXXXXXXX."
+    }
+  },
+  "nav": {
+    "home": "XXXX",
+    "start": "Xxx Xxxxx",
+    "facility": "XXXXXX",
+    "inspections": "XXXXXX",
+    "inspection_schedules": "XXXXXX XXXXXX",
+    "inspection_assignments": "XXXXXX XXXXXX",
+    "my_inspection": "XX XXXXXX",
+    "open_exceptions": "XXXXX XXXXXXX",
+    "manage": "XXXXXX",
+    "assets": "XXXXXX",
+    "locations": "XXXXXX",
+    "asset_class": "XXXXXX",
+    "inspectionschedule": "XXXXXX",
+    "rule": "XXXXXXXX",
+    "users": "XXXX",
+    "reports": "XXXXXX"
+  },
+  "search_component": {
+    "header": "XXXXXX",
+    "search_by_term_placeholder": "",
+    "Assets": "XXXXXX",
+    "Locations": "XXXXXXXXXXX",
+    "Classifications": "XXXXXXXXXXXXXXXXXX",
+    "Users": "XXXXX",
+    "InspectionAssignments": "XXXXXXX",
+    "InspectionSchedules": "XXXXXXXXX",
+    "location_placeholder_text": "XXXXX XXXX"
+  },
+  "search_results_component": {
+    "title": "XXXXXX",
+    "searchLabel": "XXXXXX",
+    "empty_search_result_message_prefix": "XXXXXX"
+  },
+  "location_component": {
+    "location_title": "XXXXXX"
+  },
+  "location_list_component": {
+    "location_list_title": "XXXXXX",
+    "btn_load_more": "XXXXXX",
+    "no_more_pages_msg": "XXXXXX"
+  },
+  "asset_component": {
+    "asset_details_title": "XXXXXX",
+    "asset_name": "XXXXXX",
+    "asset_description": "XXXXXX",
+    "asset_last_known": "XXXXXX",
+    "bt_asset_update_location": "XXXXXX",
+    "Asset_id_tag": "XXXXXX",
+    "location_title": "XXXXXX",
+    "asset_type_label": "XXXXXXXXXXX",
+    "asset_location_label": "XXXXXXXXXXXXXXXX",
+    "delete_msg_pre": "XXX XXX XXXXX XX XXXXXX XXXXXX: ",
+    "delete_msg_post": "XX XXX XXXX XX XXXXXXX?"
+  },
+  "asset_list_component": {
+    "assetlist_title": "XXXXXX",
+    "assetlist_dropdown_label": "XXXXXX",
+    "btn_assetlist_Asset": "XXXXXX"
+  },
+  "asset_create_component": {
+    "header": "XXXXXX",
+    "name_label": "XXXXXX",
+    "invalid_name_error_message": "XXXXXX",
+    "description_label": "XXXXXX",
+    "type_label": "XXXX",
+    "location_label": "XXXXXX",
+    "location_search": "Xxxxx Xxxxxx",
+    "barcode": "XXXXXXX",
+    "scannable_code": "XXXXXXXX  XXXXXXX",
+    "add_code": "XXX XXXX",
+    "remove_code": "XXXXXX XXXX",
+    "enter_code": "XXXXXX XXXX"
+  },
+  "asset_edit_component": {
+    "header": "XXXXXX",
+    "name_label": "XXXXXX",
+    "invalid_name_error_message": "XXXXXX",
+    "description_label": "XXXXXX"
+  },
+  "asset_type_create_component": {
+    "required_type_message": "XXXXXX XXXXXXX XXX XXXXXX",
+    "duplicate_type_message": "XXX XXXXXXXX XX X XXXXXX XXXXXX",
+    "duplicate_field_message": "XXXX XXXX XXXXXXXX XXXXXX",
+    "asset_type_title": "XXXXXX",
+    "asset_type_label": "XXXXXX",
+    "custom_label": "XXXXXX",
+    "custom_label_description": "XXXXXX"
+  },
+  "classification_detail_component": {
+    "classification_detail_title": "XXXXXXXXXXXXXXX XXXXXXXX XXXXXXX",
+    "fields_label": "XXXXX",
+    "inspection_planning_title": "XXXXXXXXX",
+    "inspections": "XXXXXX",
+    "inspecitons_note": "XX XXXX XXX XXXXX XXXX",
+    "btn_create_inspection": "Xxxxx Xxxxxx",
+    "btn_create_assignment": "Xxxxxx Xxxxx",
+    "auth_msg": "XXXXXXXXXXXX",
+    "delete_title": "XXXXXXXXXXXX",
+    "delete_msg_pre": "XXXXXXXXXXXX",
+    "delete_msg_post": "XXXXXXXXXXXX",
+    "warning_msg_pre": "XXXXXXXXXXXX",
+    "warning_msg_post": "XXXXXXXXXXXX"
+  },
+  "asset_inspection_component": {
+    "asset_inspection_title": "XXXXX XXXX XXXXXX",
+    "pass": "XXXX",
+    "fail": "XXXX",
+    "passCamel": "Xxxx",
+    "failCamel": "Xxxx",
+    "ad_hoc": "XX XXX XXXXXXXXXX",
+    "asset_label": "Xxxxx",
+    "inspection_label": "Xxxxxxxx",
+    "notes_label": "Xxxxxx XXxxxx",
+    "exception": "XXXXXX XXX"
+  },
+  "asset_detail_component": {
+    "asset_detail_title": "XXXXX XXXXXXX XXXX",
+    "delete_title": "XXXXXXX",
+    "empty_description": "XX XXXXXXXXX",
+    "empty_field": "XX",
+    "location_label": "xxxxxx",
+    "inspection_label": "XXXXXXXXXXX",
+    "inspection_tasks_label": "XXXXXXXXXXXXXXXX",
+    "inspection_task_button": "XXXXXXXXX",
+    "last_inspection_label": "XXXXXXXXXXXXXXX",
+    "updated_location": "XXXX",
+    "link_inspection_history": "xxxxx xxxxxxxx",
+    "scannable_code": "XXXX XXXXXX",
+    "exceptions_label": "XXXXXXXXX",
+    "exception_history": "XXXX XXXX",
+    "exception_edit_button": "XXXX"
+  },
+  "asset_history_component": {
+    "history_header": "XXXXXX",
+    "history_action": "XXXXXXXXXX",
+    "history_header_original": "XXXXXXXXXX:",
+    "history_header_updated": "XXXXXX:",
+    "record_created": "xxxx xxxx",
+    "original": "xxxxxx",
+    "updated": "xxxxx",
+    "barcode_label": "Xxxxxx Xxxxx"
+  },
+  "location_create_component": {
+    "header_location": "xxxxxx",
+    "header_sublocation": "xxxx xxx",
+    "name_label": "XXXXXX",
+    "invalid_name_error_message": "XXXXXX",
+    "description_label": "XXXXXX"
+  },
+  "location_detail_component": {
+    "title": "XXXXXX",
+    "edit_action": "XXXXXX",
+    "location_name": "XXXXXX",
+    "location_description": "XXXXXX",
+    "sublocations_title": "xxxxxxx",
+    "btn_create_sublocation": "xxxxx",
+    "btn_create_asset": "xxxxx",
+    "delete_title": "XXXXX XXX",
+    "delete_msg_pre": "XXXX XX XXXXXXX XX XXXXXXX: ",
+    "delete_msg_post": "XX XXXX XXXXXX?",
+    "warning_msg_pre": "XXXX XX XXXXXXX XX XXXXXXX:",
+    "warning_msg_post": "XXXX XX XXXXXXX XX XXXXXXX ",
+    "warning_msg_post2": "XXXX XX XXX XXXX XX XXXX XXX"
+  },
+  "user_create_component": {
+    "required_email_message": "XXXXXXX",
+    "required_role_message": "XXXX XX XXXXXXX",
+    "bad_email_message": "XXXXXX",
+    "title": "XXXXX",
+    "email": "XXXXx",
+    "role": "XXXXX",
+    "admin": "XXX",
+    "inspector": "XXXXXXXX",
+    "regular_user": "XXXX XXXXX"
+  },
+  "user_detail_component": {
+    "user_detail_title": "XXX XXXXX",
+    "email": "xxxx",
+    "first_name": "xxxxx xxx",
+    "last_name": "xxxxx xxx",
+    "phone": "xxxxx",
+    "role": "xxxx"
+  },
+  "switch_company_component": {
+    "title": "XXXXXX"
+  },
+  "header": {
+    "title": "XXXXXX",
+    "login": "XXXXXX",
+    "logout": "XXXXXXX",
+    "change_company": "XXXXX XXXXX"
+  },
+  "inspection-schedule-component": {
+    "one_time": "XXX XXXX",
+    "once": "XXXX",
+    "repeating": "XXXXXXX",
+    "weeks": "XXXXX(X)",
+    "days": "XXX(X)",
+    "months": "XXXXXXX(X)",
+    "years": "XXXX",
+    "null": "",
+    "classification_to_be_Inspected": "XXXXXX XX XX XXXX",
+    "title": "XXXXXXXX",
+    "inspection_name": "XXXX XXXX",
+    "inspection_frequency": "XXXX XXXX",
+    "repeat_every": "XXXXXX XXXX",
+    "due_date_label_one_time": "Xxx Xx",
+    "due_date_label_repeating": "Xxxx Xxx Xx",
+    "invalid_name_error_message": "XXXX XXX XXXX X XXXXXX X XX",
+    "invalid_frequency_error_message": "XXXX XXX XXXX X XXXXXX X XX",
+    "invalid_repeat_error_message": "XXXX XXX",
+    "invalid_date_error_message_one_time": "Xxx x XXxx Xxxxx",
+    "invalid_date_error_message_reeating": "Xxxx xx xxxX XXxxx Xxxx",
+    "invalid_format_error_message": "XXXX XXX XXXX X XXXXXX XX/XX/XXXX"
+  },
+  "inspection-schedule-detail-component": {
+    "title": "XXXXxx xxx Xxxxx",
+    "inspection_name": "Xxxxx XXxxx",
+    "classification": "Xxxxxxxx",
+    "one_time": "XXXxxx xxx xxxx",
+    "repeats_every": "XXxxxx XXxxxx",
+    "one_time_due": "XXxx {{due_date}}",
+    "repeat_months": "{num, plural, one{# Xxxx} other{# Zzzzz}}",
+    "monthly_due": "Xxx xx {{day}} xxx",
+    "repeat_weeks": "{num, plural, one{# Xxxx} other{# Zzzzz}}",
+    "weekly_due": "Xxx {{day_of_week}}",
+    "repeat_years": "{num, plural, one{# Xxxx} other{# Zzzzz}}",
+    "yearly_due": "Xxx {{due_date}}",
+    "btn_create_assignment": "Xxxx Xxxxx",
+    "delete_title": "XXXXXXX XXXXXXXXX",
+    "delete_message_pre": "XXX XXXX XX XXXXXXXXX XXXXXXXX XXXX:",
+    "delete_message_2": "XXXXXXXXXXXX",
+    "delete_message_3": "XXXXXXXXXXXX",
+    "delete_message_4": "XXXXXXXXXXXXs",
+    "delete_message_post": "XXXXXXXXXXX XXXXXXXXXXXXX?",
+    "auth_msg": "XXX XXXXX XX XXXX XX XXX"
+  },
+  "inspection_history_component": {
+    "inspector_label": "XXXXXXX",
+    "location_label": "XXXXX",
+    "notes_label": "XXXXX",
+    "inspection_history_title": "XXXX XXXX",
+    "asset_detail_link": "XXXX XXXXXXX"
+  },
+  "rule_add_component": {
+    "title": "XXXXXXX XXXX",
+    "name_label": "XXXXX",
+    "user_label": "XXXXXXXXX",
+    "classification_label": "XXXXXXXXXXXXX",
+    "name_error_message": "XXXXXXXXXXXXXXXxx",
+    "user_error_message": "XXXXXXXXXXXX",
+    "classification_error_message": "XXXXXXXXXXXXXXXXXXXXXx",
+    "location_label": "XXXXX XXXXXXXXX XXXXXXXX XXXXXX XXXXXXXX",
+    "none_selected": "XXXXXX XXXXX XXXXXXXXXXX XXXXXXX XXXXXX XXX XXXXXXXXX X",
+    "classification_none_selected": "XXXXXXXXXXX XXXXXXX"
+  },
+  "rule_detail_component": {
+    "title": "XXXXXXXXXXX XXXXXXXXx X",
+    "name": "XXXXXXXXXXXX XXXXX XXXXXXXXXXX",
+    "assigned": "XXXXXXXXXXX XX",
+    "classifications": "XXXXXXXXXXXX",
+    "delete_title": "XXXXXX XXXXXXXXXX",
+    "delete_message_pre": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXx",
+    "delete_message_2": "XXXXXXXXXXXXXXXXXXXXXx",
+    "delete_message_3": "XXXXXXXXXXXXXXXXXXXXX",
+    "delete_message_4": "XXXXXXXXXXXXXXXXXXXXx",
+    "delete_message_post": "XXXXXXXXXXXXXXXXXXXx",
+    "location": "XXXXXXXXXXX XXXXX XXX XXXXXXXX XXXXXXXXX",
+    "none_selected": "XXX XXXXXXXXX XXXX XXXXXX X X X XXXXXX XXXX.",
+    "classification_none_selected": "XXXX XXXX XXXXXX X X X   X XXXXXX"
+  },
+  "report_asset_inspections": {
+    "column_headers": {
+      "date": "Xxxd",
+      "classification_name": "Xxxxxxxxxxxxn",
+      "asset_name": "Xxxxa",
+      "location": "Xxxxxl",
+      "inspection_name": "Xxxxi",
+      "inspector": "Xxxxxxt",
+      "result": "Xxxxxxr",
+      "note": "Xxxxxn",
+      "exceptions": "XXXXXXXXXXCEPTION"
+    },
+    "Inspections_report_title": "XXXX XXXXX XXXX XXX",
+    "Inspections_report_executed": "XXXX XXXXX",
+    "loading_data": "XXXXX XXXX...",
+    "error_loading_data": "XXXX XXX XXXXX",
+    "from_date": "XXXXX",
+    "to_date": "XXXX",
+    "no_results": "XXX XXXXXXX XXX XXXXXXX XXXXXXXXXXXX XXX XX.",
+    "invalid_from_date": "XXXXXX XXXXXXXXXX",
+    "invalid_to_date": "XXXXXX XXXXXXXXXX",
+    "adhoc_inspection_name": "XXX XXX XXXXX",
+    "exectute_button": "XXXXX"
+  },
+  "dashboard_component": {
+    "my_work": "XX XXXXX",
+    "due_in_the_next_60": "XXX XX  XXXX 60",
+    "inspection_tasks": "XXXXXXXX XXXXXX",
+    "facility_overview": "XXXXX XXXX",
+    "overdue_work": "XXXXXX XXXX",
+    "overdue": "XXXXXXX",
+    "as_of": "XX XX",
+    "inspections": "XXXXXXXXXXXX",
+    "inspection_schedules": "XXXXXXXXX XXXXXXXX",
+    "upcoming_work": "XXXXXXX",
+    "next_60_days": "XXX 60 XXXX",
+    "today_through": "XXXXX XXXXX",
+    "facility_summary": "XXXXX XXXXX",
+    "users": "XXXXX",
+    "assets": "XXXXX",
+    "locations": "XXXXX",
+    "classifications": "XXXXXXXXXX",
+    "assignments": "XXXXXXXXXX",
+    "assign": "XXXXX",
+    "open_exceptions": "XXX XXX XXX"
+  },
+  "my_inspections": {
+    "title": "XX XXXXX",
+    "assigned_to": "XXXXXXX XX",
+    "due": "XXX",
+    "no_inspections_message": "XXXXXXXXX  XxXXX XXXXXXXX XXXX XXXXXXXXX XXXXXXXXXX"
+  },
+  "getting_started": {
+    "title": "XXXXX XXXXXX",
+    "facility_group_title": "XXXXXXXXX XXXXXXXX XXXXXXXX",
+    "user_box_title": "XXXXXXXX",
+    "user_text1": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "user_text2": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "bt_user_add": "XXXX X XXXX",
+    "location_box_title": "XXXXXXXXX",
+    "location_text1": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "location_text2": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "location_text3": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "bt_location_add": "XXX X XXXXX",
+    "assets_group_title": "XXXXXXXXX  XXXXX  XXXX",
+    "classifications_box_title": "XXXXXXXXX",
+    "classifications_text1": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "classifications_text2": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "bt_classifications_add": "XXXX X XXXX",
+    "assets_box_title": "XXXXXXXXX",
+    "assets_text1": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "assets_text2": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "assets_text3": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "bt_assets_add": "XXXX X XXXX",
+    "inspections_group_title": "XXXXXXXXX  XXXXX  XXXX",
+    "schedules_box_title": "XXXXXXXXX  XXXXX  XXXX",
+    "schedules_text1": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "schedules_text2": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "bt_schedules_add": "XXXXXXXXX  XXXXX  XXXX",
+    "assignments_box_title": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "assignments_text1": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "assignments_text2": "XXXXXXXXX  XxXXX XXXXXXXX XXXX?",
+    "bt_assignments_add": "XXXX X XXXX"
+  },
+  "manage_locations": {
+    "title": "XXXXXX XXXXXXXX",
+    "empty_result": "XXXXXXX XXXXX  XXXX"
+  },
+  "manage_assets": {
+    "show_all": "XXXXXXX XXX",
+    "title": "XXXXXXX",
+    "empty_result": "XXXXXXX XXXXX  XXXX",
+    "limit_to": "XXXX XX:",
+    "classifications": "XXXXXXXXXXXXXX"
+  },
+  "manage_classifications": {
+    "title": "XXXXXXX",
+    "empty_result": "XXXXXXX XXXXX  XXXX"
+  },
+  "manage_inspections": {
+    "title": "XXXXXXX XXXXXXX",
+    "empty_result": "XXXXXXX XXXXX  XXXX"
+  },
+  "manage_assigments": {
+    "title": "XXXXXXX",
+    "empty_result": "XXXXXXX XXXXX  XXXX"
+  },
+  "manage_users": {
+    "title": "XXXXXXX",
+    "empty_result": "XXXXXXX XXXXX  XXXX"
+  },
+  "open_exceptions": {
+    "title": "Xxxxxxxx",
+    "empty_result": "XXX XXXXX XXXXXXXXXX XX XXXX",
+    "assigned_to": "Xxxxxx xx",
+    "due": "Xxxx"
+  },
+  "scannable_barcode_types": {
+    "Barcode": "Xxxxx"
+  },
+  "exception_inspection_create": {
+    "title": "XXXXXX XXXXXX",
+    "issue": "XXXXX",
+    "details": "XXXXXXXX",
+    "assigned_to": "XXXX XXXXXXX",
+    "date_due": "XXX XXXX",
+    "inspection": "XXXXXXXXX",
+    "asset": "XXXXX",
+    "location": "XXXXXXXXX"
+  },
+  "exception_edit": {
+    "title": "XXX XXXXXX XXXXX",
+    "issue": "XXXX XXX",
+    "details": "XXXX XXXXXXXX",
+    "assigned_to": "XXXXX XXX",
+    "date_due": "XXX XXXXXXX",
+    "inspection": "XXXXX",
+    "asset": "XXXXX",
+    "location": "XXXX",
+    "state": "XX",
+    "close": "XXXXX",
+    "generated_by": "XXX XXXXXXXX",
+    "notes": "XXXX",
+    "closed_on": "XXX XXXXX",
+    "closed_by": "XXXXX XX"
+  },
+  "task_summary_views": {
+    "overdue_title": "Xxxxxx Xxxx",
+    "upcoming_title": "XXxxx Xxxx",
+    "label_overdue": "Xxxxx",
+    "label_upcoming": "Xxxxxxx",
+    "column_inspections": "Xxxxxxxx",
+    "column_tasks": "Xxxxxx Xxxxx Xxxxxxx",
+    "tasks_xs_label": "Xxxxxx xxxx xxxxxxx",
+    "no_overdue": "Xxxx xxxx xxx xxx xxxxx",
+    "no_pending": "Xxxx xxxx xxx xxx xxxxx",
+    "label_due": "Xxxx",
+    "of": "xx"
+  }
+}

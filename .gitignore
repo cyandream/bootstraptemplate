@@ -1,0 +1,15 @@
+.tmp/
+.vscode/
+coverage/
+dist/
+conf/
+node_modules/
+typings/
+reports/*
+!src/app/components/reports/
+test-reports/
+src/app/services/*.html
+
+npm-debug.log*
+
+.DS_Store
