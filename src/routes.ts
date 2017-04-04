@@ -19,4 +19,8 @@ export default function routesConfig(
         unsecure: true
       }
     })
+    .state('template1', {
+      url: '/assets/template1',
+      component: 'template1'
+    })
 }
