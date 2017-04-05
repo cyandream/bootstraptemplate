@@ -7,7 +7,7 @@ export default function routesConfig(
   $locationProvider: angular.ILocationProvider
 ) {
 
-  $locationProvider.html5Mode(true).hashPrefix('!');
+  //$locationProvider.html5Mode(true).hashPrefix('!');
   $urlRouterProvider
     .otherwise('/');
 
@@ -20,7 +20,11 @@ export default function routesConfig(
       }
     })
     .state('template1', {
-      url: '/assets/template1',
+      url: '/template1',
       component: 'template1'
     })
+    .state('template2', {
+      url: '/template2',
+      component: 'template2'
+    });
 }

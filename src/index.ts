@@ -16,7 +16,9 @@ import 'angular-date-time-input';
 import 'bootstrap';
 import * as moment from 'moment';
 
-import {assetsModule} from './app/components/assets/index';
+import {template1} from './app/components/template1/template1.component';
+import {template2} from './app/components/template2/template2.component';
+
 import 'angular-ui-router';
 import routesConfig from './routes';
 
@@ -28,7 +30,6 @@ import './css/main.scss';
 
 angular
   .module('app', [
-    assetsModule,
     'angularUtils.directives.dirPagination',
     'ui.router',
     'ui.grid',
@@ -38,7 +39,11 @@ angular
     'ngSanitize',
     'pascalprecht.translate',
     'nl2br-filter',
-    'ui.bootstrap.datetimepicker'
+    'ui.bootstrap.datetimepicker',
   ])
+  .config(routesConfig)
+  .component('template1', template1)
+  .component('template2', template2)
   .component('smartHeader', header)
-  .component('smartFooter', footer)
+  .component('smartFooter', footer);
+

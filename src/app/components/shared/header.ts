@@ -4,16 +4,18 @@ import * as angular from 'angular';
 class HeaderController {
   public logoSrc: string = '.svg';
   public logoSrcLong: string = '.svg';
+  public companyName: string = '';
+  public companyLogo: string = '';
+  public userHasMultipleCompanies: boolean = false;
+  public companyLoaded: boolean = false;
   public route: string;
 
   /** @ngInject */
   constructor(
     private $scope: any,
-
     private $state: angular.ui.IStateService,
     private $rootScope: angular.IRootScopeService,
-    private companySwitchedEvent: string,
-    private $window: angular.IWindowService,
+    private $window: angular.IWindowService
 
 
   ) {}
@@ -34,12 +36,19 @@ class HeaderController {
     });
   }
 
- 
-
   gotoPage(route: string) {
     this.$state.go(route, {pageNumber: 1});
   }
-  
+
+  gotoTemplate1() {
+    console.log('in template 1');
+    this.$state.go('template1');
+  }
+
+    gotoTemplate2() {
+    console.log('in template 2');
+    this.$state.go('template2');
+  }
 }
 
 export const header: angular.IComponentOptions = {
