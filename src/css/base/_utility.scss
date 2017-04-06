@@ -1,0 +1,311 @@
+body {
+  background-color: $color-ghost;
+  color: $color-grey-text;
+  padding-top: 95px;
+  @media (min-width: $sm-break) {
+    padding-top: 100px;
+  }
+  .navbar.navbar-dark.bg-inverse {
+    background-color: $brand-primary;
+  }
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-right-md {
+  @media (min-width: $md-break) {
+    text-align: right;
+  }
+}
+
+.text-align-right-lg {
+  @media (min-width: $lg-break) {
+    text-align: right;
+  }
+}
+
+.align-center {
+  -webkit-align-self: center;
+  /* Safari 7.0+ */
+  align-self: center;
+  text-align: center;
+}
+
+.showHeightIfEmpty {
+  min-height: 1em;
+}
+
+// Ellipse Text
+.hideOverflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding-bottom: 5px;
+  display: block;
+}
+
+.truncateMobile {
+  min-width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// Wrap Text
+.wrapOverflow {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: keep-all;
+  -ms-word-break: break-all;
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+
+
+.RouteChangeOverlay {
+  transition: opacity ease-out .3s;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 72px;
+  color: #002776;
+  opacity: 0;
+  transform: translateY(-100%);
+  &.showOverlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.hide,
+.hidden {
+  display: none !important;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+
+
+// .margin-bottom {
+//   margin-bottom: $gutter/2;
+//   @media (min-width: $sm-break) {
+//     margin-bottom: $gutter;
+//   }
+// }
+
+// .margin-top {
+//   margin-top: $gutter/2;
+//   @media (min-width: $sm-break) {
+//     margin-top: $gutter;
+//   }
+// }
+
+// .m-l {
+//   margin-left: $gutter/2;
+//   @media (min-width: $sm-break) {
+//     margin-left: $gutter;
+//   }
+// }
+
+// .m-r {
+//   margin-right: 0;
+//   @media (min-width: $sm-break) {
+//     margin-right: $gutter;
+//   }
+// }
+
+// .padding-top-bottom {
+//   padding: $gutter/2;
+//   @media(min-width: $sm-break) {
+//     padding: $gutter;
+//   }
+// }
+
+
+// .vAlignCenter {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .no-pad-L-R,
+// .px-0 {
+//   padding-left: 0;
+//   padding-right: 0;
+// }
+
+// .no-margins,
+// .m-0 {
+//   margin: 0;
+// }
+
+// .no-margin-L-R,
+// .mx-0 {
+//   margin-left: 0;
+//   margin-right: 0;
+// }
+
+// .p-half {
+//   padding: .5rem;
+// }
+
+// .p-1 {
+//   padding: 1rem;
+// }
+
+// .p-2 {
+//   padding: 2rem;
+// }
+
+// .p-b-half {
+//   padding-bottom: .5rem;
+// }
+
+// .m-b-half {
+//   margin-bottom: .5rem;
+// }
+
+// // .p-t-0-mobile {
+// //   @extend .p-t-1;
+// //   padding-top: 0 !important;
+// //   @media (min-width: $sm-break) {
+// //     padding-top: auto !important;
+// //   }
+// // }
+
+
+
+// .float-l {
+//   float: left;
+// }
+
+// .float-r {
+//   float: right;
+// }
+
+// .clear {
+//   clear: both;
+// }
+
+// .bordered-spacer {
+//   height: 3rem;
+//   border-top: 1px solid $color-greyish;
+//   border-bottom: 1px solid $color-greyish;
+// }
+
+
+
+// .text-center {
+//   text-align: center;
+// }
+
+// .margin-auto {
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// .inline {
+//   display: inline-block;
+//   line-height: 2em;
+// }
+
+// .title-section.manage {
+//   padding: 10px 0 0 0;
+// }
+
+// a.addContainer {
+//   color: #002776;
+//   float: right;
+//   text-transform: uppercase;
+// }
+
+// a.addContainer:hover {
+//   color: #002776;
+//   text-decoration: none;
+// }
+
+
+
+// // IE Fix for padding on input button
+// @media screen and (-ms-high-contrast: active),
+// (-ms-high-contrast: none) {
+//   .input-group input.ie11HeightFix {
+//     padding: 8px;
+//   }
+// }
+
+// @media screen and (-ms-high-contrast: active),
+// (-ms-high-contrast: none) {
+//   .ie11WidthFix {
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
+//   .iePad-L-15 {
+//     padding-left: 15px;
+//   }
+//   .iePad-R-15 {
+//     padding-right: 15px;
+//   }
+// }
+
+// td.chevron-container {
+//   vertical-align: middle;
+//   text-align: right;
+// }
+
+// .vCentering {
+//   position: relative;
+//   top: -13px;
+// }
+
+td.circleOutlineContainer {
+  width: 50px;
+  display: table-cell;
+  text-align: center;
+  &.breadcrumbSpacer {
+    vertical-align: middle;
+  }
+}
+
+.circleOutline {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid $color-skyblue 1px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-top: -4px;
+  @media (min-width: $sm-break) {
+    margin-top: -7px;
+  }
+}
+
+.circleOutline>i {
+  color: $color-blue, ;
+  font-size: 1.5rem;
+}

@@ -68,6 +68,10 @@ class HeaderController {
     console.log('in template 6');
     this.$state.go('template6');
   }
+  gotoTemplate7() {
+    console.log('in template 7');
+    this.$state.go('template7');
+  }
 }
 
 export const header: angular.IComponentOptions = {

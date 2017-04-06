@@ -5,9 +5,20 @@
 @import '../../node_modules/angular-bootstrap-datetimepicker/src/scss/datetimepicker';
 
 @import 'base/mymixin';
-
+@import 'base/utility';
 @import 'base/nav';
 @import 'base/grid';
+@import 'base/dropdown';
+@import 'base/fontawesome';
+@import 'base/buttons';
+@import 'base/typography';
+@import 'base/colors';
 
 @import '../app/components/template1/template1';
+@import '../app/components/template2/template2';
+@import '../app/components/template3/template3';
+@import '../app/components/template4/template4';
+@import '../app/components/template5/template5';
+@import '../app/components/template6/template6';
+@import '../app/components/template7/template7';
 

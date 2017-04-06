@@ -38,5 +38,13 @@ export default function routesConfig(
     .state('template5', {
       url: '/template5',
       component: 'template5'
+    })
+    .state('template6', {
+      url: '/template6',
+      component: 'template6'
+    })
+        .state('template7', {
+      url: '/template7',
+      component: 'template7'
     });
 }

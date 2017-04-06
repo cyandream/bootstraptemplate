@@ -1,0 +1,76 @@
+
+.bg-white {
+  background-color: $color-white;
+}
+
+.bg-whitegrey {
+  background-color: $color-ghost;
+}
+
+.bg-lightblue {
+  background-color: $color-lightblue;
+}
+.bg-skyblue {
+  background-color: $color-skyblue;
+}
+
+.bg-orange {
+  background-color: $color-orange;
+}
+
+.bg-purple {
+  background-color: $color-purple;
+}
+
+.text-white {
+  color: $color-white;
+}
+
+.text-success {
+  color: $brand-success
+}
+
+.text-danger {
+  color: $brand-danger;
+}
+
+.text-primary {
+  color: $color-blue
+}
+
+.text-whitegrey {
+  color: $color-whitegrey-darken;
+}
+
+.text-purple {
+  color: $color-purple;
+}
+
+.text-orange {
+  color: $color-orange;
+}
+
+.b-all-white {
+  border: 2px solid $color-white;
+}
+
+.b-all-grey {
+  border: 1px solid $color-grey-b;
+}
+
+.b-t-grey{
+  border-top: 1px solid $color-grey-b;
+}
+
+.b-b-grey {
+  border-bottom: 1px solid $color-grey-b;
+}
+
+.b-t-lightgrey {
+  border-top: 1px solid $color-ghost;
+}
+
+.b-b-lightgrey {
+  border-bottom: 1px solid $color-ghost;
+}
+

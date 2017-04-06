@@ -54,31 +54,32 @@
 
  #help-dropdown,
  #user-dropdown,
- #company-dropdown {
-    background-color: $color-blue;
-    border: 0px;
-    a {
-      color: $color-white;
+ #company-dropdown{
+    background-color: $color-white;
+    border: 1px solid $color-mid-grey;
+    .dropdown-item {
       padding-bottom: 4px;
       padding-top: 4px;
       &:hover {
-        background-color: $color-blue;
+        color: $color-blue-on-grey;
+        background-color:$color-rollover-grey
       }
     }
-    @media (min-width: $sm-break) {
-      position: absolute;
+    @media (max-width: $sm-break) {
+      position: static;
       padding-left: 0;
       top: 40px;
       float: left;
-      min-width: 160px;
-      border: 1px solid $color-grey;
-      background-color: $color-white;
-      @include dropshadow;
-      a {
-        color: $color-charcoal;
-        background-color: $color-white;
+      min-width: 100%;
+      border: 0;
+      background-color: $color-blue;
+
+      .dropdown-item {
+        color: $color-white;
+        background-color: $color-blue;
         &:hover {
-          background-color: $color-white;
+          color: $color-white;
+          background-color: $color-blue;
         }
       }
     }

@@ -1,0 +1,44 @@
+
+.fa-chevron-right {
+  color: $color-whitegrey-darken;
+  min-width: 10px;
+}
+
+.fa-asterisk {
+  font-size: .5rem;
+}
+
+.font-16px {
+  font-size: 16px;
+}
+
+.font-90-percent {
+  font-size: 90%;
+}
+
+.fa-18px {
+  font-size: 1.25rem;
+}
+
+.arrow-icon::after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-right: .25rem;
+  margin-left: .25rem;
+  vertical-align: middle;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-left: 0.3em solid transparent;
+}
+
+.fa-pad-L {
+  padding-left: 5px;
+  font-size: 1.25rem; //18px
+}
+
+.fa-pad-R {
+  padding-right: 5px;
+  font-size: 1.25rem; //18px
+}

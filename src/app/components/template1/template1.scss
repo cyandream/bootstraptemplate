@@ -1,1 +1,11 @@
-.template1{}
+.template1{
+.container .row {
+  border:1px solid grey;
+}
+
+[class*="col-"] {
+  border:1px solid dodgerblue;
+}
+
+
+}

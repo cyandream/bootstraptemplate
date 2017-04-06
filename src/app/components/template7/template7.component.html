@@ -1,0 +1,103 @@
+<div class="template7" >
+  <div class="bg-white b-b-grey">
+    <div class="container">
+      <div class="title-section">
+        <h3><i class="fa fa-hdd-o" aria-hidden="true"></i> header</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white b-b-grey">
+    <form ng-submit="vm.submit(AddObjectForm, vm.object)" name="AddObjectForm" novalidate>
+      <div class="container bg-white pt-4">
+        <div class="row form-group">
+          <div class="col-sm-12">
+          <label for="ObjectName">
+              <h5>name
+              <span class="text-danger">*</span>
+              </h5>
+            </label>
+            <input type="text" class="form-control" required ng-model="vm.object.name" name="ObjectName" />
+            <div ng-if="AddObjectForm.ObjectName.$touched || AddObjectForm.ObjectName.$dirty || AddObjectForm.$submitted" ng-messages="AddObjectForm.AssetObject.$error" role="alert">
+              <div class="alert alert-danger" ng-message="required">invalid</div>
+            </div>
+          </div>
+        </div>
+         <div class="row form-group">
+           <div class="col-sm-12">
+            <label for="object-description">
+              <h5>Description</h5>
+            </label>
+            <textarea rows="5" class="form-control" id="object.description" ng-model="vm.object.description" name="objecg-description"></textarea>
+          </div>
+        </div>
+        <div class="row form-group">
+          <div class="col-sm-12">
+            <label for="location"><h5>Location</h5></label>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="breadcrumb-location small">
+              <span ng-repeat="crumb in vm.location.ancestors | orderBy:'-'">
+              breadcrumb name
+              <span >&gt;</span>
+              <span ng-if="$last">location name</span>
+              </span>
+            </div>
+
+            <div ng-show="vm.object.locationName" class="m-r-1 m-b-1">
+              <p>location name</p>
+            </div>
+            <div class="d-block">
+              <button type="button" class="btn btn-primary-outline" ng-click="vm.showLocationSearch()" id="addLocation">
+                <i class="fa fa-pad-R fa-plus" ng-hide="vm.object.locationName"></i>add location
+              </button>
+              <button type="button" class="btn btn-primary-outline" ng-click="vm.clearLocation()" ng-show="vm.object.locationName">
+              delete</button>
+            </div>
+          </div>
+        </div>
+
+    
+        <div class="row form-group">
+          <div class="col-sm-12">
+            <label for="next-input">
+                <h5>Select Input</h5>
+            </label>
+    
+              <div class="input-group p-b-1" ng-repeat="item in vm.object">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span>type</span>
+                  </button>
+                  <div class="dropdown-menu scanbar-dropdown">
+                    <a class="dropdown-item">select</a>
+                  </div>
+                </div>
+                <input type="text" class="form-control input height" placeholder="enter item" ng-model="item.value" />
+                <span class="input-group-btn">
+                  <button class="btn btn-primary" type="button"
+                    ng-click="vm.removeitem()">
+                    <i class="fa fa-minus"></i></button>
+                </span>
+              </div>
+              <div class="input-group p-b-1">
+                <button type="button" class="btn btn-primary-outline" ng-click="vm.addItemAndResetForNext()">
+                  <i class="fa fa-pad-R fa-plus"></i>Add</button>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="b-t-grey">
+        <div class="container">
+          <div class="row">
+              <div class="title-section text-right">
+                <button class="btn btn-link" type="button" ng-click="vm.goBack()">Cancel</button>
+                <button type="submit" ng-disabled="vm.saving" class="btn btn-primary" id="save">Save</button>
+              </div>
+            </div>
+        </div>
+      </div>
+  </form>
+</div>

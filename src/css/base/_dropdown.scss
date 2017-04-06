@@ -1,0 +1,21 @@
+.dropdown-item {
+  // 44px touch target
+  line-height: 2.9;
+}
+
+.dropdown-menu {
+  @include dropshadow;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu .dropdown-item {
+  border-bottom: 1px dotted #ccc;
+  &:last-child {
+    border-bottom: 0;
+  }
+  &:hover {
+    color: $color-blue-on-grey;
+  }
+}

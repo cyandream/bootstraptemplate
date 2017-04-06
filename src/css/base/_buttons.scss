@@ -1,0 +1,136 @@
+.btn-primary,
+.open .btn-primary.dropdown-toggle {
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  @include btn ($color-white, $color-skyblue, $color-white, $color-blue);
+  border: 0;
+}
+
+.btn-secondary,
+.open .btn-secondary.dropdown-toggle {
+  @include btn ($gray-dark, $color-whitegrey, $color-blue-on-grey, $color-rollover-grey);
+  border-color: darken($color-whitegrey, 5%);
+}
+
+.btn-primary.outline {
+  border: 1px solid $color-skyblue;
+}
+
+.btn-primary-outline {
+  @include btn ($color-blue, $color-white, $color-white, $color-blue);
+  border: 1px solid $color-blue;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+.btn-primary-inverse {
+  @include btn ($color-skyblue, $color-white, $color-white, $color-skyblue);
+  border-color: darken($color-skyblue, 10%);
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+.btn-white-greytext {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  @include btn ($color-grey-text, $color-white, $color-blue-on-grey, $color-rollover-grey);
+}
+
+.default-link {
+  @include linx ($color-grey-text, $color-skyblue);
+  text-transform: uppercase;
+}
+
+.primary-link {
+  @include linx ($color-blue, $color-skyblue);
+}
+
+.secondary-link {
+  @include linx ($link-color, $color-skyblue, true);
+}
+
+.btn-link-padding {
+  padding: 5px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// // Side flyout  menu
+.nav-three-dot,
+.nav-three-dot a {
+  padding-top: 5px;
+  padding-left: 5px;
+  width: 30px;
+  float: right;
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  flex: 1;
+  @include linx ($color-blue, $color-skyblue);
+  .fa {
+    font-size: 18px;
+  }
+}
+
+.pointer,
+.clickable,
+a {
+  cursor: pointer;
+}
+
+.login-section {
+  a {
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+button.close {
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+button.textcolor-white.btn-link:hover {
+  color: $color-white;
+  text-decoration: none;
+}
+
+
+.card button.close {
+  top: 0;
+}
+
+.breadcrumb-locations,
+.breadcrumb {
+  font-size: .75em;
+}
+
+.breadcrumb-links {
+  a {
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 250%;
+    padding: 9px 0;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.pagination .page-item a.page-link {
+  padding: .7rem 1.1rem;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+input.searchInput {
+  font-family: FontAwesome, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.no-border-radius {
+  border-radius: 0;
+}

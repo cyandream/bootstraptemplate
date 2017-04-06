@@ -22,6 +22,7 @@ import {template3} from './app/components/template3/template3.component';
 import {template4} from './app/components/template4/template4.component';
 import {template5} from './app/components/template5/template5.component';
 import {template6} from './app/components/template6/template6.component';
+import {template7} from './app/components/template7/template7.component';
 
 import 'angular-ui-router';
 import routesConfig from './routes';
@@ -52,6 +53,7 @@ angular
   .component('template4', template4)
   .component('template5', template5)
   .component('template6', template6)
+  .component('template7', template7)
   .component('smartHeader', header)
   .component('smartFooter', footer);
 

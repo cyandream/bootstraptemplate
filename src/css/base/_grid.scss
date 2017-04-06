@@ -8,14 +8,12 @@
   }
 }
 
-//////////// temp
-.container .row {
-  border:1px solid grey;
+.parent-flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
 }
 
-[class*="col-"] {
-  border:1px solid dodgerblue;
-}
 
 .footer {
     position: absolute;

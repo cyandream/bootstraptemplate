@@ -1,0 +1,140 @@
+//  Typography Style
+// Font calculation for REM's to 14px, 1 em ==14px
+html {
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+body {
+  font-family: 'Roboto';
+  font-weight: 400; // roboto regular
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Roboto';
+  font-weight: 900; // roboto Black
+  color: $color-blue;
+  @include word-wrap;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Roboto';
+  font-weight: 700; // roboto Bold
+  color: $color-blue;
+  @include word-wrap;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Roboto';
+  font-weight: 700; // roboto Bold
+  color: $color-blue;
+  @include word-wrap;
+}
+
+h4 {
+  font-size: 1.3125rem;
+  font-family: 'Roboto';
+  font-weight: 500; // roboto Medium
+  color: $color-blue;
+  @include word-wrap;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-family: 'Roboto';
+  font-weight: 500; // roboto Medium
+  margin-bottom: 0;
+  color: $color-blue;
+  @include word-wrap;
+  &.title {
+    font-family: 'Roboto';
+    font-weight: 700; // roboto Bold
+    font-weight: bold;
+    color: $color-charcoal;
+    padding: 3px 0; // fix for cut off text in list
+    margin: 0;
+  }
+}
+
+
+h6 {
+  font-size: 1rem;
+  font-family: 'Roboto';
+  font-weight: 400; // roboto Regular
+  color: $color-blue;
+  @include word-wrap;
+}
+
+h6.uppercase-subtitle {
+  font-weight: 600;
+  color: $color-blue;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0 0 7px;
+  padding: 0;
+  text-overflow: ellipsis;
+}
+
+p {
+  font-size: 1rem; // 14px
+  @include word-wrap;
+  &.mobile-small-text {
+    font-size: .85rem;
+    margin: 0;
+    @media($sm-break) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.header-section {
+  @extend .parent-flex;
+  padding-top: 15px;
+  h2 {
+    @extend .truncateMobile;
+    float: left;
+  }
+}
+
+.title-section {
+  padding: 25px 0 15px 0;
+  margin: 0;
+  h2 {
+    margin: 0
+  }
+}
+
+.title-underline {
+  padding: 0 0 10px 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  h3 {
+    margin: 0;
+  }
+}
+
+
+.sub-title-section {
+  padding: 5px 0 5px 0;
+  margin: 0;
+  background-color: $color-lightblue;
+  h2 {
+    margin: 0
+  }
+}
+
+.subTitle {
+  color: $color-grey-text;
+  font-weight: bold;
+  font-weight: 700; // roboto Bold
+}
+
