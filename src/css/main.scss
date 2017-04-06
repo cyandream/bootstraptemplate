@@ -4,6 +4,10 @@
 @import '../../node_modules/font-awesome/scss/font-awesome';
 @import '../../node_modules/angular-bootstrap-datetimepicker/src/scss/datetimepicker';
 
+@import 'base/mymixin';
 
-@import '../app/components/assets/template1/template1';
+@import 'base/nav';
+@import 'base/grid';
+
+@import '../app/components/template1/template1';
 

@@ -1,0 +1,90 @@
+﻿@import './myvariables';
+// Ellipsis:  p{   margin: 0 auto;  @include truncateText;}
+@mixin truncateText($overflow: ellipsis) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: $overflow;
+}
+
+@mixin word-wrap() {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+@mixin dropshadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@mixin font-faceFontAwesome {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+// USE: @include linx ($color-blue, $link-color);
+@mixin linx ($link, $hover, $underline: false) {
+  cursor: pointer;
+  a {
+    color: $link;
+    text-decoration: none!important;
+    transition: all 0.5s ease;
+    &:visited {
+      color: $link;
+      text-decoration: none!important;
+    }
+    &:active {
+      color: $hover;
+      text-decoration: none!important;
+    }
+    @if $underline=="true" {
+      &:hover {
+        color: $hover;
+        text-decoration: underline;
+      }
+    }
+    @else {
+      &:hover {
+        color: $hover;
+        text-decoration: none!important;
+      }
+    }
+  }
+}
+
+// USE: @include btn ($color-grey, $text-white, $color-blue-on-grey, $color-rollover-grey);
+@mixin btn ($textcolor, $backgroundcolor, $hovertextcolor, $hoverbackgroundcolor) {
+  cursor: pointer;
+  color: $textcolor;
+  transition: all 0.5s ease;
+  background-color: $backgroundcolor;
+  border-color: lighten($textcolor, 20%);
+  &:focus {
+    color: $hovertextcolor;
+    background-color: $hoverbackgroundcolor;
+    border-color: lighten($hovertextcolor, 15%);
+  }
+  &:active {
+    color: $hovertextcolor;
+    background-color: $hoverbackgroundcolor;
+    border-color: lighten($hovertextcolor, 15%);
+  }
+  &:active:focus {
+    color: $hovertextcolor;
+    background-color: $hoverbackgroundcolor;
+    border-color: lighten($hovertextcolor, 15%);
+  }
+  &:hover {
+    color: $hovertextcolor;
+    background-color: $hoverbackgroundcolor;
+    border-color: lighten($hovertextcolor, 15%);
+  }
+}
+
+// Use: @include height(5px)
+@mixin height($height) {
+  height: $height;
+}

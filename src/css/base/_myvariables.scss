@@ -1,23 +1,12 @@
 
-$path-fonts: '../fonts';
-$fa-font-path: "~font-awesome/fonts";
-$path-images: '../images';
-$font-family-sans-serif: Roboto,
-Helvetica,
-Arial,
-'Helvetica Neue',
-sans-serif;
-
+// breakpoints
+$sm-break: 576px; // phone
+$md-break: 768px; // tablet
+$lg-break: 992px; //desktop
+$xl-break: 1200px; // wide desktop
 // Colors
-$color-red: #B72626;
-$color-yellow: #FDC82F;
-$color-forestgreen: #02784A;
-//$color-danger: #782c2c;
-$color-danger: #B72626;
-$color-success: #1f5d1f;
 $color-orange: #CC6714;
 $color-purple: #503D99;
-$color-blue-dark: #0054FF;
 $color-blue-on-grey: #185485;
 $color-rollover-grey: #f5f5f5;
 $color-white: #fff;
@@ -30,50 +19,41 @@ $color-charcoal: #444;
 $color-darkgrey: #282828;
 $color-black: #000;
 $color-whitegrey-darken: darken($color-whitegrey, 20%);
-$color-light-danger: lighten($color-danger, 45%);
 // Brand Colors
 $color-skyblue: #6AADE4;
 $color-lightblue: #DAEBF8;
 $color-blue: #002776;
-$brand­primary: $color-blue;
-$brand­primary­light: lighten($brand­primary, 10%);
-$brand­primary­dark: darken($brand­primary, 10%);
-$brand­secondary: $color-skyblue;
-$brand­secondary­light: lighten($brand­secondary, 10%);
-$brand­secondary­dark: darken($brand­secondary, 10%);
+$brand­-secondary: #6AADE4;
 // Bootstrap V4 variables
 $gray-dark: #373a3c;
 // $gray:                      #55595c; -- NOT OVERRIDDEN
 // $gray-light:                #818a91; -- NOT OVERRIDDEN
 // $gray-lighter:              #eceeef; -- NOT OVERRIDDEN
 // $gray-lightest:             #f7f7f9; -- NOT OVERRIDDEN
-$brand-primary: $color-blue;
-$brand-success: $color-success;
+$brand-primary: #002776;
+$brand-success: #1f5d1f;
 // $brand-info:                #5bc0de; -- NOT OVERRIDDEN
 // $brand-warning:             #f0ad4e; -- NOT OVERRIDDEN
-$brand-danger: $color-danger;
-.text-danger {
-  color: $color-danger
-} // OVERRIDDEN Bootstrap
+$brand-danger: #B72626;
 // END Bootstrap V4 variables
 $radius-circle: 50%;
 $gutter: 15px;
-// Links
-//
 // Style anchor elements.
 $link-color: #337ab7 !default;
 //pagination
-$pagination-active-bg: $color-skyblue;
+$pagination-active-bg: #6AADE4;
 $pagination-active-border: #3f95dc;
-// breakpoints
-$sm-break: 544px; // phone
-$md-break: 768px; // tablet
-$lg-break: 992px; //desktop
-$xl-break: 1200px; // wide desktop
 // Overwrite bootstrap calendar
 $abdtp-current-background-color: $color-white;
 $abdtp-background-color-end: $color-skyblue;
 $abdtp-background-color-end: $color-skyblue;
 $abdtp-active-background-color: $color-skyblue;
-// turn off flexbox
-$enable-flex: false !default;
+$font-family-sans-serif: Roboto,
+Helvetica,
+Arial,
+'Helvetica Neue',
+sans-serif;
+
+$path-fonts: '../fonts';
+$fa-font-path: "~font-awesome/fonts";
+$path-images: '../images';

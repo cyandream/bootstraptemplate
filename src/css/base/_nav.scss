@@ -1,0 +1,126 @@
+.logoSquare {
+  height: 40px;
+  width: 40px;
+}
+
+#bt-hamburger {
+  position: absolute;
+  top: .3rem;
+  cursor:pointer;
+}
+
+.navbar {
+  min-height: 50px;
+  background-color: $color-blue !important;
+  padding: 0 1rem;
+}
+
+.navbar-nav {
+  width: 100%;
+  align-self:center;
+}
+
+.navbar-nav .nav-link {
+  color: $color-white !important;
+}
+
+#icon-container {
+  width: 100%;
+  @media(min-width: $sm-break) {
+    width: 160px;
+  }
+}
+
+#loggedInMenu {
+  width: 100%;
+}
+
+// Logged Out Menu
+#loggedOutMenu {
+  height: 50px;
+  position: relative;
+  top: 7px;
+  @media (min-width: $sm-break) {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+  }
+  a.login-link {
+    color: $color-white !important;
+  }
+}
+
+// mobile submenu open
+
+ #help-dropdown,
+ #user-dropdown,
+ #company-dropdown {
+    background-color: $color-blue;
+    border: 0px;
+    a {
+      color: $color-white;
+      padding-bottom: 4px;
+      padding-top: 4px;
+      &:hover {
+        background-color: $color-blue;
+      }
+    }
+    @media (min-width: $sm-break) {
+      position: absolute;
+      padding-left: 0;
+      top: 40px;
+      float: left;
+      min-width: 160px;
+      border: 1px solid $color-grey;
+      background-color: $color-white;
+      @include dropshadow;
+      a {
+        color: $color-charcoal;
+        background-color: $color-white;
+        &:hover {
+          background-color: $color-white;
+        }
+      }
+    }
+}
+
+ 
+
+
+.searchbar {
+  @include dropshadow;
+  background-color: $color-white;
+  position: fixed;
+  z-index: 1025;
+  top: 40px;
+  width: 100%;
+  height: 65px;
+  @media(min-width: $sm-break) {
+    height: 65px;
+    top: 35px;
+  }
+}
+
+.search-container {
+  padding-top: 20px;
+  #side-menu .dropdown-item:hover {
+    color: $color-blue-on-grey;
+  }
+  .fa {
+    font-size: 1.2rem;
+    width: 24px;
+    display: inline-block;
+  }
+}
+
+
+.fa-industry,
+.fa-question-circle,
+.fa-user-circle-o {
+  font-size: 1.35rem;
+  padding-right: 10px;
+  @media (min-width: $sm-break) {
+    padding-right: 0;
+    font-size: 1.35rem;
+  }
+}

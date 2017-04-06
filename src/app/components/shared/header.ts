@@ -23,17 +23,17 @@ class HeaderController {
   $onInit = () => {
 
 
-    // On Window resize,check for $sm-break point, remove bootstrap class
-    this.$window.addEventListener('resize', function () {
-      if (window.innerWidth > 544) {
-        let elementNavbar: HTMLElement = document.getElementById('collapse-nav-content');
-        $(elementNavbar).removeClass('in');
-        let elementManageMenu: HTMLElement = document.getElementById('manage-menu');
-        $(elementManageMenu).removeClass('open');
-         let elementLoginMenu: HTMLElement = document.getElementById('login-container');
-        $(elementLoginMenu).removeClass('open');
-      }
-    });
+    // // On Window resize,check for $sm-break point, remove bootstrap class
+    // this.$window.addEventListener('resize', function () {
+    //   if (window.innerWidth > 544) {
+    //     let elementNavbar: HTMLElement = document.getElementById('collapse-nav-content');
+    //     $(elementNavbar).removeClass('in');
+    //     let elementManageMenu: HTMLElement = document.getElementById('manage-menu');
+    //     $(elementManageMenu).removeClass('open');
+    //      let elementLoginMenu: HTMLElement = document.getElementById('login-container');
+    //     $(elementLoginMenu).removeClass('open');
+    //   }
+    // });
   }
 
   gotoPage(route: string) {
@@ -48,6 +48,15 @@ class HeaderController {
     gotoTemplate2() {
     console.log('in template 2');
     this.$state.go('template2');
+  }
+  gotoTemplate3() {
+    console.log('in template 3');
+    this.$state.go('template3');
+  }
+
+    gotoTemplate4() {
+    console.log('in template 4');
+    this.$state.go('template4');
   }
 }
 
