@@ -54,9 +54,19 @@ class HeaderController {
     this.$state.go('template3');
   }
 
-    gotoTemplate4() {
+  gotoTemplate4() {
     console.log('in template 4');
     this.$state.go('template4');
+  }
+
+  gotoTemplate5() {
+    console.log('in template 5');
+    this.$state.go('template5');
+  }
+
+  gotoTemplate6() {
+    console.log('in template 6');
+    this.$state.go('template6');
   }
 }
 

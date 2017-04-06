@@ -26,5 +26,17 @@ export default function routesConfig(
     .state('template2', {
       url: '/template2',
       component: 'template2'
+    })
+    .state('template3', {
+      url: '/template3',
+      component: 'template3'
+    })
+    .state('template4', {
+      url: '/template4',
+      component: 'template4'
+    })
+    .state('template5', {
+      url: '/template5',
+      component: 'template5'
     });
 }

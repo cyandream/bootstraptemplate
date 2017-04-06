@@ -16,3 +16,12 @@
 [class*="col-"] {
   border:1px solid dodgerblue;
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    align-self:center;
+    height: 50px;
+    background-color: $brand-primary;
+}

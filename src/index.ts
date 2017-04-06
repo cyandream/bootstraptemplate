@@ -18,6 +18,10 @@ import * as moment from 'moment';
 
 import {template1} from './app/components/template1/template1.component';
 import {template2} from './app/components/template2/template2.component';
+import {template3} from './app/components/template3/template3.component';
+import {template4} from './app/components/template4/template4.component';
+import {template5} from './app/components/template5/template5.component';
+import {template6} from './app/components/template6/template6.component';
 
 import 'angular-ui-router';
 import routesConfig from './routes';
@@ -44,6 +48,10 @@ angular
   .config(routesConfig)
   .component('template1', template1)
   .component('template2', template2)
+  .component('template3', template3)
+  .component('template4', template4)
+  .component('template5', template5)
+  .component('template6', template6)
   .component('smartHeader', header)
   .component('smartFooter', footer);
 
