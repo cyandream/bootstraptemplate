@@ -1,4 +1,14 @@
 
+i.fa-pad-L {
+  padding-left: 5px;
+  font-size: 1.25rem; //18px
+}
+
+i.fa-pad-R {
+  padding-right: 5px;
+  font-size: 1.25rem; //18px
+}
+
 .fa-chevron-right {
   color: $color-whitegrey-darken;
   min-width: 10px;
@@ -31,14 +41,4 @@
   border-top: 0.3em solid;
   border-right: 0.3em solid transparent;
   border-left: 0.3em solid transparent;
-}
-
-.fa-pad-L {
-  padding-left: 5px;
-  font-size: 1.25rem; //18px
-}
-
-.fa-pad-R {
-  padding-right: 5px;
-  font-size: 1.25rem; //18px
 }

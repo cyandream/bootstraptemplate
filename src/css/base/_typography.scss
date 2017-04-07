@@ -9,7 +9,19 @@ html {
 }
 
 body {
-  font-family: 'Roboto';
+  $font-family-sans-serif:
+  // Safari for OS X and iOS (San Francisco)
+  -apple-system,
+  // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
+  system-ui,
+  // Chrome < 56 for OS X (San Francisco)
+  BlinkMacSystemFont,
+  // Windows
+  "Segoe UI",
+  // Android
+  "Roboto",
+  // Basic web fallback
+  "Helvetica Neue", Arial, sans-serif !default;
   font-weight: 400; // roboto regular
   height: 100%;
   width: 100%;
@@ -133,7 +145,7 @@ p {
 }
 
 .subTitle {
-  color: $color-grey-text;
+  color: $color-charcoal;
   font-weight: bold;
   font-weight: 700; // roboto Bold
 }

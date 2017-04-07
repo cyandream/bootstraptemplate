@@ -1,0 +1,29 @@
+
+.searchbar {
+  @include dropshadow;
+  background-color: $color-white;
+  position: fixed;
+  z-index: 1025;
+  top: 40px;
+  width: 100%;
+  height: 65px;
+  @media(min-width: $sm-break) {
+    height: 65px;
+    top: 35px;
+  }
+}
+
+.search-container {
+  padding-top: 20px;
+  #side-menu .dropdown-item:hover {
+    color: $color-blue-on-grey;
+  }
+  .fa {
+    font-size: 1.2rem;
+    width: 24px;
+    display: inline-block;
+  }
+}
+
+
+

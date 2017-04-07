@@ -1,15 +1,15 @@
-<nav id="nav" class="navbar navbar-inverse fixed-top navbar-toggleable-sm">
-
-  <button id="bt-hamburger" class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<nav id="nav" class="nav navbar navbar-inverse fixed-top navbar-toggleable-sm">
+    <button id="bt-hamburger" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="navbar-brand">
-    <a id="logo-link" href="/">
-      <img class="logoSquare"  alt="x" />
-    </a>
-  </div>
-  <div id="navbarNavDropdown" class="navbar-collapse collapsed collapse">
-    <ul class="navbar-nav">
+    <div class="navbar-brand">
+      <a id="logo-link" href="/">
+        <img class="logoSquare" alt="x" />
+      </a>
+    </div>
+    <div id="navbarNavDropdown" class="navbar-collapse collapsed collapse">
+      <ul class="navbar-nav flex-column flex-md-row justify-content-start">
         <li class="nav-item">
           <a class="nav-link" href="/">Home</a>
         </li>
@@ -22,43 +22,44 @@
             <a class="dropdown-item" ng-click="vm.gotoTemplate7()">Nested Grids</a>
           </div>
         </li>
-       <li class="nav-item">
-        <a class="nav-link dropdown-toggle" id="component-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
-        <div class="dropdown-menu dropdown-menu-left side-menu">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="component-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components</a>
+          <div class="dropdown-menu dropdown-menu-left side-menu">
             <a class="dropdown-item" ng-click="vm.gotoTemplate4()">JumboTron</a>
             <a class="dropdown-item" ng-click="vm.gotoTemplate5()">Cards</a>
             <a class="dropdown-item" ng-click="vm.gotoTemplate6()">x</a>
           </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" ng-click="vm.gotoTemplate3()">Forms</a>
-      </li>
-    </ul>
-    <span id="icon-container" class="navbar-text">
-      <ul class="navbar-nav">
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" ng-click="vm.gotoTemplate3()">Forms</a>
+        </li>
+      </ul>
+      <span id="icon-container" class="navbar-text">
+      <ul class="navbar-nav flex-md-row justify-content-end">
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" id="help-icon" href="/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fa fa-question-circle"></i><span class="hidden-md-up">Help</span></a></a>
-          <div class="dropdown-menu dropdown-menu-right side-menu" id="help-dropdown" >
-              <a class="dropdown-item" id="setup_nav_link" data-toggle="collapse" data-target=".navbar-toggleable-xs.in" href="/getting-started">getting started</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="company-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-industry"></i><span class="hidden-md-up">Company</span></a>
-            <div class="dropdown-menu dropdown-menu-right side-menu" id="company-dropdown">
-              <a class="dropdown-item" href="/">sub 1</a>
-              <a class="dropdown-item" href="/">sub 2</a>
-            </div>
-        </li>
-       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" id="user-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fa fa-user-circle-o"></i><span class="hidden-md-up">User</span></a>
-            <div class="dropdown-menu dropdown-menu-right side-menu" id="user-dropdown">
-              <a class="dropdown-item" id="logout_nav_link" ng-click="vm.logout()">log out<i class="p-2">user name</i></a>
-            </div>
+          <i class="fa fa-question-circle fa-pad-R"></i><span class="hidden-md-up">Help</span></a>
+      </a>
+      <div class="dropdown-menu dropdown-menu-right side-menu" id="help-dropdown">
+        <a class="dropdown-item" id="setup_nav_link" data-toggle="collapse" data-target=".navbar-toggleable-xs.in" href="/getting-started">getting started</a>
+      </div>
       </li>
-    </span>
-  </div>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="company-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-industry fa-pad-R"></i><span class="hidden-md-up">Company</span></a>
+        <div class="dropdown-menu dropdown-menu-right side-menu" id="company-dropdown">
+          <a class="dropdown-item" href="/">sub 1</a>
+          <a class="dropdown-item" href="/">sub 2</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="user-icon" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-user-circle-o fa-pad-R"></i><span class="hidden-md-up">User</span></a>
+        <div class="dropdown-menu dropdown-menu-right side-menu" id="user-dropdown">
+          <a class="dropdown-item" id="logout_nav_link" ng-click="vm.logout()">log out<i class="p-2">user name</i></a>
+        </div>
+      </li>
+      </span>
+    </div>
 </nav>

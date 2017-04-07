@@ -32,11 +32,11 @@
 
 .btn-white-greytext {
   text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
-  @include btn ($color-grey-text, $color-white, $color-blue-on-grey, $color-rollover-grey);
+  @include btn ($color-charcoal, $color-white, $color-blue-on-grey, $color-rollover-grey);
 }
 
 .default-link {
-  @include linx ($color-grey-text, $color-skyblue);
+  @include linx ($color-charcoal, $color-skyblue);
   text-transform: uppercase;
 }
 
